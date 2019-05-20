@@ -9,6 +9,7 @@ public class HomeController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String home() {
-        return "<h1>Hello to my demo app deployed on Heroku!</h1>";
+        return "<h1>Hello to my demo app deployed on Heroku!</h1>\n" +
+                "<h3>This is final test</h3>";
     }
 }
